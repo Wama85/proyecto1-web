@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #708C85;
+    
+}
+nav ul li{
+    display: inline;  
+
+}
+nav ul li a{
+    color: #D6C5AB;
+    text-decoration: none;
+   
+}
+#menu-fondo ul li::after{
+    content:"|";
+    padding: 0 20px 0 20px;
+}
+#menu-fondo  ul li:last-child::after{
+    content:"";
+}
+#menu-fondo ul li a:hover{
+    color: #005B42;
+    background-color: #B48437;
+    padding: 5px;
+    border-radius: 5px;
+}
+#menu-fondo{
+    background-color: #005B42;
+    padding: 20px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0; 
+    text-align: right;
+    font-weight: bold;
+    border-radius: 0 0 0 25px;
+}
+#menu-fondo ul li:first-child a {
+    background-image: url('../img/inicio.png'); 
+    background-size:30%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+       
+}
+main{
+    display:flex;
+}
+#left{
+    flex: 50%;
+    flex-direction: row;   
+}
+#right{
+    flex: 50%;
+    text-align: center;
+    padding-top: 2%;
+    padding-right: 5%;
+   
+}
+#right p{
+    text-align: justify;
+    
+}
+.imagen-container img{
+    width: 150px;
+}
+.imagen-container{
+    display: inline-block;
+    margin-bottom: 10px;    
+}
+#imagen-1{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    rotate: -20deg;
+}
+#imagen-2{
+    position: absolute;
+    rotate: -10deg;
+    top: 60px;
+    left: 180px;
+}
+
+#imagen-3{
+    position: absolute;
+    rotate: 20deg;
+    top: 70px;
+    left: 280px;
+}
+#imagen-4{
+    position: absolute;
+    rotate: 35deg;
+    top: 120px;
+    left: 410px;
+}
+#imagen-5 img{
+    width: 250px;
+    
+}
+#imagen-5{
+    position: relative;
+    left: 130px;
+    top: 300px;
+}
+main{
+    position: relative;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #8A5500;
+    padding: 10px 0;
+    text-align: center; 
+}
+footer{
+    display: flex;
+    padding: 0 2%;
+}
+#footer_left{
+    flex: 5%0;
+    
+    text-align: left;
+     
+}
+#footer_right{
+    flex: 50%;
+    text-align: center;
+    align-self: flex-end;
+}
+#footer_left ul{
+    list-style-type: none;
+    
+}
+#footer_left ul li, a{
+    padding: 20px 0px 0px 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer_left ul li a:hover{
+    color: #C7A570;
+}
+#boton-right{
+    background-color: #005B42;
+    width: 25%;
+padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#boton-right:hover{
+    background-color: #B48437;
+    
+}
+#boton-right a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+span a{
+    color: #8A5500;
+    font-weight: bold;
+}
+#contenido{
+    padding: 50px 5% 50px 5%;
+}
+#titulo{
+    padding: 20px 0;
+    text-align: center;
+}
+section{
+    font-size: 30px;
+    font-weight: bold;
+    color:#005B42;
+    padding: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+   
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    
+    margin: 10px;
+    text-align: center;
+   
+  }

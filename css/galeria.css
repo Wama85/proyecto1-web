@@ -1,0 +1,18 @@
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+
+.image{
+    padding: 20px;
+    border: 2px solid #B48437;
+   border-radius: 10px;
+   margin-left: 10px;
+   text-align: center;
+
+}
