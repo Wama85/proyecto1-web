@@ -31,7 +31,7 @@ nav ul li a{
 #menu-fondo{
     background-color: #005B42;
     padding: 20px;
-    width: 30%;
+    width: 35%;
     margin-left: auto;
     margin-right: 0; 
     text-align: right;
@@ -40,114 +40,68 @@ nav ul li a{
 }
 #menu-fondo ul li:first-child a {
     background-image: url('../img/inicio.png'); 
-    background-size:30%;
+    background-size:25%;
     background-position: left center;
     background-repeat: no-repeat;
-    padding-left: 35px;
+    padding-left: 30px;
+    padding-top: 5px;
        
 }
 main{
     display:flex;
+
+    width: 100%;
+    
 }
 #left{
     flex: 50%;
-    flex-direction: row;   
+    text-align: center;
+    padding-top: 5%;    
 }
 #right{
     flex: 50%;
     text-align: center;
-    padding-top: 2%;
-    padding-right: 5%;
-   
+    padding: 20px;
+    background-color: #D6C5AB;
+    height: 100%;  
 }
 #right p{
-    text-align: justify;
-    
+    text-align: justify; 
 }
 .imagen-container img{
-    width: 150px;
+    width: 120px;  
 }
 .imagen-container{
-    display: inline-block;
+    display: inline-block; 
     margin-bottom: 10px;    
 }
 #imagen-1{
-    position: absolute;
-    top: 100px;
-    left: 40px;
-    rotate: -20deg;
-}
-#imagen-2{
-    position: absolute;
-    rotate: -10deg;
-    top: 60px;
-    left: 180px;
+     rotate: -30deg;  
 }
 
 #imagen-3{
-    position: absolute;
-    rotate: 20deg;
-    top: 70px;
-    left: 280px;
+    
+    rotate: 20deg; 
 }
 #imagen-4{
-    position: absolute;
-    rotate: 35deg;
-    top: 120px;
-    left: 410px;
-}
-#imagen-5 img{
-    width: 250px;
-    
+    rotate: 35deg;  
 }
 #imagen-5{
-    position: relative;
-    left: 130px;
-    top: 300px;
-}
-main{
-    position: relative;
-    
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #8A5500;
-    padding: 10px 0;
-    text-align: center; 
-}
-footer{
-    display: flex;
-    padding: 0 2%;
-}
-#footer_left{
-    flex: 5%0;
-    
-    text-align: left;
-     
-}
-#footer_right{
-    flex: 50%;
     text-align: center;
-    align-self: flex-end;
 }
-#footer_left ul{
-    list-style-type: none;
+#imagen-5 img{
+    width: 200px;
     
 }
-#footer_left ul li, a{
-    padding: 20px 0px 0px 0px;
-    color: #FFFFFF;
-    text-decoration: none;
+
+#right p{
+    margin-bottom: 20px;
 }
-#footer_left ul li a:hover{
-    color: #C7A570;
-}
+
 #boton-right{
     background-color: #005B42;
     width: 25%;
-padding: 15px;
+    padding: 15px;
     border-radius: 10px;
     margin: 0 auto;
 }
@@ -165,7 +119,8 @@ span a{
     font-weight: bold;
 }
 #contenido{
-    padding: 50px 5% 50px 5%;
+    width: 100%;
+    background-color: #F7E5D0;
 }
 #titulo{
     padding: 20px 0;
@@ -177,16 +132,41 @@ section{
     color:#005B42;
     padding: 10px;
 }
-.flex-container {
+
+footer {
+ 
+    width: 100%;
+    background-color: #24765F;
+    text-align: center; 
+   
+}
+#footerMargen{
     display: flex;
-    flex-wrap: nowrap;
-   
-  }
+    align-items: center;
+    width: 100%;
   
-  .flex-container > div {
-    background-color: #f1f1f1;
-    
-    margin: 10px;
+}
+#footer_left{
+    flex: 50%;
+    text-align: left;
+    padding: 20px;
+     
+}
+#footer_right{
+    flex: 50%;
     text-align: center;
+    padding: 20px;
    
-  }
+}
+#footer_left ul{
+    list-style-type: none;
+    
+}
+#footer_left ul li, a{
+    padding: 15px 0px 0px 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#footer_left ul li a:hover{
+    color: #C7A570;
+}

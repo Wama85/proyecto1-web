@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+   
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 2%;
+  
+    text-align: center;
+   
+  }
+  #subtitulo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-shadow: 0 0 3px #24765F;
+}
+   
+
+    
+  
